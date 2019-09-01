@@ -1,3 +1,8 @@
+body {
+    background-color: aquamarine;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 .avatar {
     max-height: 30px;
     border-radius: 15px;
@@ -20,6 +25,26 @@
     height: 50vh;
     border-radius: 5px 5px 0 0;
     overflow-y: auto;
+
+    .chat-message-container {
+        padding: 5px;
+
+        .avatar {
+            margin: 5px;
+        }
+
+        .message-content {
+            padding: 5px;
+            border: 1px solid $primary;
+            border-radius: 5px;
+            background: lighten($primary, 10%);
+            color: $white;
+        }
+
+        &+.chat-message-container {
+            margin-top: 10px;
+        }
+    }
 }
 
 .chat-input {
@@ -27,22 +52,24 @@
     border-radius: 0 0 5px 5px;
 }
 
-.chat-message-container {
-    padding: 5px;
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
 
-    .avatar {
-        margin: 5px;
-    }
+.right {
+    right: 0;
+    background-color: white;
+}
 
-    .message-content {
-        padding: 5px;
-        border: 1px solid $primary;
-        border-radius: 5px;
-        background: lighten($primary, 10%);
-        color: $white;
-    }
-
-    &+.chat-message-container {
-        margin-top: 10px;
-    }
+.left {
+    left: 0;
+    background-image: url(../images/splitbackground.jpg);
+    background-size: cover;
+    background-repeat: none;
 }
