@@ -1,24 +1,17 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+########## Try It Out ###########
 
-Things you may want to cover:
+Clone down
 
-* Ruby version
+Bundle install
 
-* System dependencies
+RubyV 2.6.2, RailsV 5.2.3
 
-* Configuration
+Rails s - To start
 
-* Database creation
+Login credentials (Or Create you're own)
+    email: example2@123.com
+    password: cookies
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+################### Hope you enjoy!####################
