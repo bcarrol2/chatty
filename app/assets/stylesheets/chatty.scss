@@ -1,5 +1,5 @@
 body {
-    background-color: aquamarine;
+    background-color: lightskyblue;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -67,13 +67,14 @@ body {
     background-color: white;
 }
 
-.left input {
-    color: blue;
-}
-
 .right {
     right: 0;
-    background-image: url();
+    background-image: url(../images/texting.jpg);
     background-size: cover;
     background-repeat: none;
+    background-color: beige;
+}
+
+input {
+    color: aliceblue;
 }
