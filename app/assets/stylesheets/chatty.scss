@@ -62,14 +62,18 @@ body {
     padding-top: 20px;
 }
 
-.right {
-    right: 0;
+.left {
+    left: 0;
     background-color: white;
 }
 
-.left {
-    left: 0;
-    background-image: url(../images/splitbackground.jpg);
+.left input {
+    color: blue;
+}
+
+.right {
+    right: 0;
+    background-image: url();
     background-size: cover;
     background-repeat: none;
 }
